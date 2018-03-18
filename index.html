@@ -19,8 +19,8 @@
       <!-- Menu -->
       <div id="menuBox">
         <div class="menuButton" onclick="ScrollToElement('#aboutSection')">About</div>
-        <div class="menuButton" onclick="ScrollToElement('#currentSection')">Current Projects</div>
-        <div class="menuButton" onclick="ScrollToElement('#pastSection')">Past Projects</div>
+        <div class="menuButton" onclick="ScrollToElement('#currentSection')">Projects In Progress</div>
+        <div class="menuButton" onclick="ScrollToElement('#pastSection')">Completed Projects</div>
         <div class="menuButton" onclick="ScrollToElement('#contactSection')">Contact</div>
       </div>
 
@@ -33,17 +33,27 @@
         </div>
 
         <div class="contentSection">
-          <h2 id="currentSection">Current Projects</h2>
+          <h2 id="currentSection">Projects In Progress</h2>
           <p>
             These are a few of the current projects I have on the go!
           </p>
 
+          <!-- start of In Progress Articles -->
           <article class="project">
             <h3>3D Racing Game</h3>
-            <img class="articleImage" src="mountains.jpg" alt="An article image">
-            <p>
-              this is where i write about the 3d game I made.
-            </p>
+            <div class="technologiesContainer">
+              <div class="technologies">
+                <div class="technology JS">Javascript</div>
+                <div class="technology HTML">HTML</div>
+                <div class="technology CSS">CSS</div>
+              </div>
+            </div>
+            <img class="articleImage" src="Bike_Playing.jpg" alt="Go game sample picture">
+            <div class="articleContents">
+              <p>
+                This is where i write about the 3d game I made.
+              </p>
+            </div>
             <div class="seeMore">
               <div>
                 Click to see more...
@@ -53,8 +63,15 @@
 
           <article class="project">
             <h3>Excel Reports Generator</h3>
+            <img class="articleImage" src="mountains.jpg" alt="An article image">
+            <div class="technologiesContainer">
+              <div class="technologies">
+                  <div class="technology VBA">VBA</div>
+                  <div class="technology EXCEL">Excel</div>
+              </div>
+            </div>
             <p>
-              this is where i write about the 3d Go game I made.
+              this is where i write about the 3d game I made.
             </p>
             <div class="seeMore">
               <div>
@@ -65,34 +82,62 @@
         </div>
 
         <div class="contentSection">
-          <h2 id="pastSection">Past Projects</h2>
+          <h2 id="pastSection">Completed Projects</h2>
           <p>
             These are a few of the past projects I have on the go!
           </p>
-            <article class="project">
-              <h3>Link Generator</h3>
-              <p>
-                this is where i write about the 3d game I made.
-              </p>
-              <div class="seeMore">
-                <div>
-                  Click to see more...
-                </div>
-              </div>
-            </article>
 
-            <article class="project">
-              <h3>GO Game</h3>
-              <p>
-                this is where i write about the 3d Go game I made.
-              </p>
-              <div class="seeMore">
-                <div>
-                  Click to see more...
-                </div>
+          <!-- Start of Completed Articles -->
+          <article class="project">
+            <h3>3D Go Game</h3>
+            <div class="technologiesContainer">
+              <div class="technologies">
+                <div class="technology JS">Javascript</div>
+                <div class="technology HTML">HTML</div>
+                <div class="technology CSS">CSS</div>
               </div>
-            </article>
-        </div>
+            </div>
+            <img class="articleImage" src="GoGame_Playing.jpg" alt="Go game sample picture">
+            <div class="articleContents">
+              <p>
+                This is where i write about the 3d game I made.
+              </p>
+              <img class="articleImage" src="GoGame_Menu.jpg" alt="Go game sample picture">
+              <p>
+                This is where I write about the details of the project including
+                the way one can change the board style.
+              </p>
+              <img class="articleImage" src="GoGame_BoardStyle.jpg" alt="Go game sample picture">
+            </div>
+            <div class="seeMore">
+              <div>
+                Click to see more...
+              </div>
+            </div>
+          </article>
+
+          <article class="project">
+            <h3>Animal Mayhem</h3>
+            <div class="technologiesContainer">
+              <div class="technologies">
+                <div class="technology JS">Javascript</div>
+                <div class="technology HTML">HTML</div>
+                <div class="technology CSS">CSS</div>
+              </div>
+            </div>
+            <img class="articleImage" src="Animal_Main.png" alt="Go game sample picture">
+            <div class="articleContents">
+              <p>
+                This is where i write about the 3d game I made.
+              </p>
+              <img class="articleImage" src="Animal_Completed.png" alt="Go game sample picture">
+            </div>
+            <div class="seeMore">
+              <div>
+                Click to see more...
+              </div>
+            </div>
+          </article>
 
         <div class="contentSection">
           <h2 id="contactSection">Contact</h2>
