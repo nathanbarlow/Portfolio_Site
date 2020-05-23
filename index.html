@@ -1,173 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta charset="UTF-8">
-		<title>Nathan Barlow</title>
-		<link rel="stylesheet" href="mobile.css">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Vitality Inc.</title>
+</head>
+<body>
 
-	</head>
-	<body>
+<!-- navbar -->
+<nav class="navbar bg-dark navbar-dark navbar-expand-sm fixed-top">
+  <a class="navbar-brand" href="index.html">Vitality Inc.</a>
 
-    <div id=contentsContainer><!-- container div -->
+  <button type="button" class="navbar-toggler"
+    data-toggle="collapse" data-target="#myTogglerNav"
+    aria-controls="myTogglerNav"
+    aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-      <div id="headerContainer"><!-- Header/Title -->
-         <img id="headerBackground" src="mountains.jpg" alt="Background image">
-         <h1>Nathan Barlow</h1>
-      </div>
-
-      <!-- Menu -->
-      <div id="menuBox">
-        <div class="menuButton" onclick="ScrollToElement('#aboutSection')">About</div>
-        <div class="menuButton" onclick="ScrollToElement('#currentSection')">Projects In Progress</div>
-        <div class="menuButton" onclick="ScrollToElement('#pastSection')">Completed Projects</div>
-        <div class="menuButton" onclick="ScrollToElement('#contactSection')">Contact</div>
-      </div>
-
-      <div><!-- Contents -->
-        <div class="contentSection">
-          <h2 id="aboutSection">About</h2>
-          <p>
-            This is where i tell about myself
-          </p>
-        </div>
-
-        <div class="contentSection">
-          <h2 id="currentSection">Projects In Progress</h2>
-          <p>
-            These are a few of the current projects I have on the go!
-          </p>
-
-          <!-- start of In Progress Articles -->
-          <article class="project">
-            <h3>3D Racing Game</h3>
-            <div class="technologiesContainer">
-              <div class="technologies">
-                <div class="technology JS">Javascript</div>
-                <div class="technology HTML">HTML</div>
-                <div class="technology CSS">CSS</div>
-              </div>
-            </div>
-            <img class="articleImage" src="Bike_Playing.jpg" alt="Go game sample picture">
-            <div class="articleContents">
-              <p>
-                This is where i write about the 3d game I made.
-              </p>
-            </div>
-            <div class="seeMore">
-              <div>
-                Click to see more...
-              </div>
-            </div>
-          </article>
-
-          <article class="project">
-            <h3>Excel Reports Generator</h3>
-            <img class="articleImage" src="mountains.jpg" alt="An article image">
-            <div class="technologiesContainer">
-              <div class="technologies">
-                  <div class="technology VBA">VBA</div>
-                  <div class="technology EXCEL">Excel</div>
-              </div>
-            </div>
-            <p>
-              this is where i write about the 3d game I made.
-            </p>
-            <div class="seeMore">
-              <div>
-                Click to see more...
-              </div>
-            </div>
-          </article>
-        </div>
-
-        <div class="contentSection">
-          <h2 id="pastSection">Completed Projects</h2>
-          <p>
-            These are a few of the past projects I have on the go!
-          </p>
-
-          <!-- Start of Completed Articles -->
-          <article class="project">
-            <h3>3D Go Game</h3>
-            <div class="technologiesContainer">
-              <div class="technologies">
-                <div class="technology JS">Javascript</div>
-                <div class="technology HTML">HTML</div>
-                <div class="technology CSS">CSS</div>
-              </div>
-            </div>
-            <img class="articleImage" src="GoGame_Playing.jpg" alt="Go game sample picture">
-            <div class="articleContents">
-              <p>
-                This is where i write about the 3d game I made.
-              </p>
-              <img class="articleImage" src="GoGame_Menu.jpg" alt="Go game sample picture">
-              <p>
-                This is where I write about the details of the project including
-                the way one can change the board style.
-              </p>
-              <img class="articleImage" src="GoGame_BoardStyle.jpg" alt="Go game sample picture">
-            </div>
-            <div class="seeMore">
-              <div>
-                Click to see more...
-              </div>
-            </div>
-          </article>
-
-          <article class="project">
-            <h3>Animal Mayhem</h3>
-            <div class="technologiesContainer">
-              <div class="technologies">
-                <div class="technology JS">Javascript</div>
-                <div class="technology HTML">HTML</div>
-                <div class="technology CSS">CSS</div>
-              </div>
-            </div>
-            <img class="articleImage" src="Animal_Main.png" alt="Go game sample picture">
-            <div class="articleContents">
-              <p>
-                This is where i write about the 3d game I made.
-              </p>
-              <img class="articleImage" src="Animal_Completed.png" alt="Go game sample picture">
-            </div>
-            <div class="seeMore">
-              <div>
-                Click to see more...
-              </div>
-            </div>
-          </article>
-
-        <div class="contentSection">
-          <h2 id="contactSection">Contact</h2>
-          <p>
-            Hi if you would like to get in touch with me please fill out this form.
-          </p>
-        </div>
-      </div>
+  <div class="collapse navbar-collapse" id="myTogglerNav">
+    <div class="navbar-nav ml-auto">
+      <a class="nav-item nav-link active" href="index.html">Home</a>
+      <a class="nav-item nav-link" href="services.html">Services</a>
+      <a class="nav-item nav-link" href="team.html">Our Team</a>
+      <a class="nav-item nav-link" href="contact.html">Contact</a>
+      <a id="booknow" class="nav-item btn btn-outline-warning text-light my-1 py-1" href="booknow.html">Book Now</a>
     </div>
-	</body>
+  </div><!-- collapse -->
+</nav><!-- navbar-nav -->
+
+
+<!-- top Photo -->
+<div speed=1 class="parallax-image bg-cover d-flex justify-content-center flex-column">
+  <div class="text-center">
+    <h2 class="display-2">Vitality Inc.</h2>
+    <h4 class="display-4">Helping you feel good.</h4>
+    <a class="btn btn-outline-warning badge-pill  px-4 mt-3" href="booknow.html">Book Now</a>
+  </div>
+</div>
+
+
+<!-- philosophy -->
+<div class="shaded d-flex justify-content-center flex-column">
+  <div class="text-center">
+      <h2 class="display-4">Philosophy tagline</h2>
+      <h5 class="">Something slightly longer indicating our values</h5>
+  </div>
+</div>
+
+
+<!-- training options -->
+<div class="container py-5">
+  <div class="unshaded table justify-content-center flex-column text-center">
+    <div class="row">
+
+      <h2 class="display-4 col-12 mt-3">Training Options</h2>
+
+      <div class="col-12 col-sm-6">
+        <div class="card my-3">
+          <img class="card-img-top w-50 mx-auto mt-3" src="assets/images/group_icon.png" alt="Card image" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">Group Training</h4>
+            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+          </div>
+        </div><!-- card -->
+      </div><!-- column -->
+
+      <div class="col-12 col-sm-6">
+        <div class="card my-3">
+          <img class="card-img-top w-50 mx-auto mt-3" src="assets/images/sing_icon.png" alt="Card image" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">Individual Training</h4>
+            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+          </div>
+        </div><!-- card -->
+      </div><!-- column -->
+
+    </div><!-- row -->
+  </div>
+</div><!-- container -->
+
+
+<!-- what to expect -->
+<div speed=1 class="parallax-image picture-panel d-flex justify-content-center flex-column">
+  <div class="text-center test">
+      <a id="textChange" class="btn btn-warning badge-pill px-4 mt-3" href="booknow.html">Book Now</a>
+  </div>
+</div>
+
+
+<!-- footer -->
+<div class="footer-panel">
+  <div class="container py-3"><!-- footer container -->
+    <div class="d-flex justify-content-around flex-wrap flex-sm-nowrap ">
+
+      <div class=""><!-- Social Media -->
+        <h4 class="footer-header">Social Media</h4>
+        <a class="" href="#">
+          <img class="social-icon mr-2" src="assets/images/f_logo_RGB-Blue_58.png" alt="Linkedin">
+        </a>
+        <a class="" href="#">
+          <img class="social-icon" src="assets/images/In-2C-59px-R.png" alt="img">
+        </a>
+      </div>
+
+      <div class=""><!-- Services -->
+        <h4 class="footer-header">Services</h4>
+        <a class="footer-link" href="services.html">Services</a>
+        <a class="footer-link" href="contact.html">Contact</a>
+        <a class="footer-link" href="booknow.html">Book Now</a>
+      </div>
+
+      <div class=""><!-- Company -->
+        <h4 class="footer-header">Company</h4>
+        <a class="footer-link" href="team.html">Our Team</a>
+        <a class="footer-link" href="#">Privacy Policy</a>
+        <a class="footer-link" href="#">Terms of Service</a>
+      </div>
+
+    </div><!-- flex -->
+  </div> <!-- footer content container -->
+</div><!-- background div -->
+
+
+<script src="assets/js/jquery.slim.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/parallax.js"></script>
+</body>
 </html>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script>
-  $(document).ready(function(){
-
-    // toggle class .selected on any article that is clicked
-    $( 'article' ).click(function() {
-      $( this ).toggleClass( 'selected' );
-      $( this ).toggleClass( 'project' );
-    });
-
-  });
-
-  function ScrollToElement(elementID){
-    //input an element ID in form "#id"
-    //scrolls down to the element with the id specified
-    $('html, body').animate({
-      scrollTop: $(elementID).offset().top
-    }, 500);
-
-  }
-</script>

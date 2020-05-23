@@ -1,0 +1,76 @@
+
+
+/* parallax image containing panels */
+.bg-cover {
+  background-image: url("../images/walking.jpg");
+  /* background-image: url("../images/therapy-session.webp"); */
+  background-attachment: static;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  background-size: auto 140vh;
+  height: 100vh;
+}
+
+.picture-panel {
+  height: 40vh;
+  background-image: url("../images/photo2.jpg");
+  background-attachment: static;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100vw auto;
+}
+
+
+/* Other panels */
+.shaded {
+  min-height: 325px;
+  background-color: lightgrey;
+}
+
+.unshaded {
+  background-color: white;
+}
+
+
+/* Styling for the page footer with navigation links */
+.footer-panel {
+  background-color: #343a40;
+}
+
+.footer-header {
+  display: block;
+  color: #8d9290;
+  text-decoration: none;
+}
+
+.social-icon {
+  display: inline-block;
+  width: 40px;
+}
+
+.footer-link {
+  display: block;
+  color: #8d9290;
+  text-decoration: none;
+}
+
+.footer-link:link {
+    text-decoration: none;
+    color: #8d9290;
+}
+
+.footer-link:visited {
+    text-decoration: none;
+    color: #8d9290;
+}
+
+.footer-link:active {
+    text-decoration: none;
+    color: #8d9290;
+}
+
+.footer-link:hover {
+    text-decoration: none;
+    color: #b1b4b3;
+}

@@ -1,0 +1,194 @@
+<div class="container"> <!-- header and navbar -->
+  <header class="jumbotron-fluid mt-3 mb-0 bg-cover">
+    <!-- <img id="CoverBack" src="assets/images/pan.png" alt="cover photo"> -->
+    <div class="py-5">
+      <h1 class="text-center text-white">Vitality Inc.</h1>
+      <p class="text-center text-white">Helping you feel good.</p>
+    </div>
+  </header>
+
+
+  <nav class="navbar bg-dark navbar-dark navbar-expand-sm py-0">
+    <a class="navbar-brand d-none d-sm-inline-block" href="index.html">Vitality Inc.</a>
+
+    <div class="navbar-nav nav-fill w-100">
+      <a class="nav-item nav-link active" href="index.html">Home</a>
+      <a class="nav-item nav-link" href="getstarted.html">Get Started</a>
+      <a class="nav-item nav-link" href="staff.html">Staff</a>
+      <a class="nav-item nav-link" href="contact.html">Contact</a>
+    </div><!-- navbar-nav -->
+  </nav>
+</div> <!-- header content container -->
+
+
+
+
+<header class="jumbotron-fluid mt-3 mb-0 bg-cover">
+    <!-- <img id="CoverBack" src="assets/images/pan.png" alt="cover photo"> -->
+    <div class="py-5">
+      <h1 class="text-center text-white">Vitality Inc.</h1>
+      <p class="text-center text-white">Helping you feel good.</p>
+    </div>
+  </header>
+
+
+Video background
+https://mdbootstrap.com/docs/jquery/css/background-image/
+https://mdbootstrap.com/snippets/jquery/mdbootstrap/102388
+  <video class="video-intro" poster="https://mdbootstrap.com/img/Photos/Others/background.jpg" playsinline autoplay muted loop>
+    <source src="https://mdbootstrap.com/img/video/animation.mp4" type="video/mp4">
+  </video>
+
+
+
+https://codepen.io/sabin42/pen/JvWgWY
+
+var parallaxNode1 = document.getElementsByClassName('parallax1');
+let heading = parallaxNode1[0].children[0];
+ let speed = parallaxNode1[0].getAttribute('data-speed');
+window.addEventListener('scroll', function (e) {
+    parallaxNode1[0].style.backgroundPosition = '0px '+ (window.scrollY * speed) + 'px';
+  heading.style.transform = 'translateY('+ window.scrollY*.75 +'px)';
+});
+
+
+<section class="parallax-section" >
+  <div class=" image-block parallax1" data-speed=".5">
+    <div>
+      <h1>Parallax Effect</h1>
+      <span>Simple Parallax effect using javascript</span>
+    </div>
+  </div>
+</section>
+
+
+  @import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+*{
+    box-sizing: border-box;
+}
+body{
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+
+  h1{
+    font-size: 4rem;
+    margin: 0 0 1rem 0;
+  }
+  h2{
+    font-size: 2rem;
+    margin: 0 0 1rem 0;
+  }
+  p{
+    margin: 0 0 .75rem 0;
+  }
+}
+
+.parallax-section{
+  height: 100vh;
+  max-height: 100vh;
+  background: #fbfbfb;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  h1{
+    margin-top: 0;
+  }
+  .image-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    &.parallax1{
+       background-image: url("https://images.unsplash.com/photo-1486596156859-6904e4dff8bb?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=7119f7ae64dae07c7bd0a1f6d60d7942");
+    }
+    &.parallax2{
+      background-image: url("https://images.unsplash.com/photo-1505855265981-d52719d1f64e?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=8a78a1d5ee9c43243315c25f7d7d6c43");
+      background-attachment: fixed;
+    }
+  }
+}
+
+.text-block{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  min-height: 50vh;
+  padding: 20%;
+  position: relative;
+  z-index: 10;
+}
+
+
+-------------- Previous footer section ------------------
+
+<!-- footer -->
+<div class="bg-dark">
+  <div class="container pt-5"><!-- footer container -->
+
+
+    <div class="row px-3 d-flex flex-column flex-sm-row justify-content-around">
+      <div class="col col-sm-12 ">
+        <nav class="navbar bg-transparent navbar-light navbar-expand-sm">
+          <div class="navbar-nav nav-fill w-100">
+            <a class="nav-item nav-link" href="index.html">Home</a>
+            <a class="nav-item nav-link" href="services.html">Services</a>
+            <a class="nav-item nav-link" href="staff.html">Staff</a>
+            <a class="nav-item nav-link" href="contact.html">Contact</a>
+            <a class="nav-item nav-link" href="booknow.html">Book Now</a>
+
+          </div><!-- navbar-nav -->
+        </nav>
+      </div>
+    </div> <!-- row -->
+
+
+    <div class="row px-3 d-flex flex-column flex-sm-row justify-content-around">
+      <div class="col d-flex justify-content-center">
+        <a class="nav-item nav-link" href="#">LinkedIn</a>
+        <a class="nav-item nav-link" href="#">Facebook</a>
+      </div>
+    </div> <!-- row -->
+
+
+    <div class="row px-3 d-flex flex-column flex-sm-row justify-content-around">
+      <div class="col d-flex justify-content-center">
+        <a class="nav-item nav-link" href="#">Privacy Policy</a>
+        <div class="nav-item nav-link">|</div>
+        <a class="nav-item nav-link" href="#">Terms of Service</a>
+      </div>
+    </div> <!-- row -->
+
+
+  </div> <!-- footer content container -->
+</div>
+
+
+.footer-link:link {
+    text-decoration: none;
+    color: lightgrey;
+}
+
+.footer-link:visited {
+    text-decoration: none;
+    color: lightgrey;
+}
+
+.footer-link:hover {
+    text-decoration: none;
+    color: lightgrey;
+}
+
+.footer-link:active {
+    text-decoration: none;
+    color: lightgrey;
+}
