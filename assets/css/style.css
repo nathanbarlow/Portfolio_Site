@@ -74,3 +74,11 @@
     text-decoration: none;
     color: #b1b4b3;
 }
+
+
+
+/* Form styles */
+
+.formContainer {
+  min-height: 100vh
+}
