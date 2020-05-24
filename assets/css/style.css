@@ -1,6 +1,48 @@
 
+/* color styling for brand buttons */
+:root {
+  --main-brand-color: #fcd703;
+  --shaded-brand-color: #caac02;
+  --main-brand-font: Helvetica, Arial, sans-serif;
+}
+
+
+/* font selection for site */
 body {
-  /* min-height: 100vh; */
+  font-family: var(--main-brand-font);
+}
+
+
+/* classes for modifying buttons and text to brand colors */
+.brandFont {
+  font-family: var(--main-brand-font);
+}
+
+.brandOutline {
+  border-color: var(--main-brand-color);
+  /* outline-width: 1px; */
+}
+
+.brandOutline:hover {
+  background-color: var(--main-brand-color);
+  /* color: lightgrey; */
+}
+
+.brandSolid {
+  border-color: var(--main-brand-color);
+  background-color: var(--main-brand-color);
+}
+.brandSolid:hover {
+  border-color: var(--shaded-brand-color);
+  background-color: var(--shaded-brand-color);
+}
+
+.brandText {
+  color: var(--main-brand-color);
+}
+
+.brandText:hover {
+  color: lightgrey;
 }
 
 
@@ -78,7 +120,6 @@ body {
     text-decoration: none;
     color: #b1b4b3;
 }
-
 
 
 /* Form styles */
