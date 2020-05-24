@@ -35,26 +35,45 @@
 
 
 <!-- contact form -->
-<div class="container formContainer pt-4">
+<div class="container formContainer">
+  <h1>We want to hear from you!</h1>
+  <p>
+    Please reach out to us if you are interested in finding out more about our servies or
+    are interested in working with one of our team members.
+  </p>
+
   <form name="contact" method="POST" data-netlify="true">
-    <p>
-      <label>Non human field: <input name="bot-field" /></label>
-    </p>
-    <p>
-      <label>Your Name: <input type="text" name="name" /></label>
-    </p>
-    <p>
-      <label>Your Email: <input type="email" name="email" /></label>
-    </p>
-    <p>
-      <label>Message: <textarea name="message"></textarea></label>
-    </p>
-    <div data-netlify-recaptcha="true"></div>
-    <p>
-      <button type="submit">Send</button>
-    </p>
+    <div class="bot">
+      <label>Non human field:</label>
+      <input name="bot-field" />
+    </div>
+
+    <div class="form-group">
+      <label class="form-control-label">Your Name:</label>
+      <input class="form-control" type="text" name="name" />
+    </div>
+
+    <div class="form-group">
+      <label class="form-control-label">Your Email:</label>
+      <input class="form-control" type="email" name="email" />
+    </div>
+
+    <div class="form-group">
+      <label class="form-control-label">Message:</label>
+      <textarea class="form-control" name="message"></textarea>
+    </div>
+
+    <div class="form-group">
+      <div data-netlify-recaptcha="true"></div>
+    </div>
+
+    <div class="form-group">
+      <button class="btn btn-primary px-5" type="submit">Send</button>
+    </div>
+
   </form>
 </div> <!-- contact form -->
+
 
 <!-- footer -->
 <div class="footer-panel">

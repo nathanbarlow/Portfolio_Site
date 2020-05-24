@@ -1,4 +1,8 @@
 
+body {
+  /* min-height: 100vh; */
+}
+
 
 /* parallax image containing panels */
 .bg-cover {
@@ -80,5 +84,10 @@
 /* Form styles */
 
 .formContainer {
-  min-height: 100vh
+  min-height: 100vh;
+  margin-top: 100px;
+}
+
+.bot {
+  display: none;
 }
