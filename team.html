@@ -6,16 +6,76 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-  <title>Bootstrap</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Vitality Inc.</title>
 </head>
 <body>
-  <h1>Staff</h1>
-  <div class="container">
-    <a class="nav-item nav-link" href="index.html">Home</a>
-  </div><!-- content container -->
+
+<!-- navbar -->
+<nav class="navbar bg-dark navbar-dark navbar-expand-sm fixed-top">
+  <a class="navbar-brand" href="index.html">Vitality Inc.</a>
+
+  <button type="button" class="navbar-toggler"
+    data-toggle="collapse" data-target="#myTogglerNav"
+    aria-controls="myTogglerNav"
+    aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="myTogglerNav">
+    <div class="navbar-nav ml-auto">
+      <a class="nav-item nav-link" href="index.html">Home</a>
+      <a class="nav-item nav-link" href="services.html">Services</a>
+      <a class="nav-item nav-link active" href="team.html">Our Team</a>
+      <a class="nav-item nav-link" href="contact.html">Contact</a>
+      <a class="brandOutline brandText nav-item btn my-1 py-1" href="booknow.html">Book Now</a>
+    </div>
+  </div><!-- collapse -->
+</nav><!-- navbar-nav -->
+
+<!-- blank container -->
+<div class="container formContainer">
+  <h1>Our Team</h1>
+</div>
+
+
+<!-- footer -->
+<div class="footer-panel">
+  <div class="container py-3"><!-- footer container -->
+    <div class="d-flex justify-content-around flex-wrap flex-sm-nowrap ">
+
+      <div class=""><!-- Social Media -->
+        <h4 class="footer-header">Social Media</h4>
+        <a class="" href="#">
+          <img class="social-icon mr-2" src="assets/images/f_logo_RGB-Blue_58.png" alt="Linkedin">
+        </a>
+        <a class="" href="#">
+          <img class="social-icon" src="assets/images/In-2C-59px-R.png" alt="img">
+        </a>
+      </div>
+
+      <div class=""><!-- Services -->
+        <h4 class="footer-header">Services</h4>
+        <a class="footer-link" href="services.html">Services</a>
+        <a class="footer-link" href="contact.html">Contact</a>
+        <a class="footer-link" href="booknow.html">Book Now</a>
+      </div>
+
+      <div class=""><!-- Company -->
+        <h4 class="footer-header">Company</h4>
+        <a class="footer-link" href="team.html">Our Team</a>
+        <a class="footer-link" href="#">Privacy Policy</a>
+        <a class="footer-link" href="#">Terms of Service</a>
+      </div>
+
+    </div><!-- flex -->
+  </div> <!-- footer content container -->
+</div><!-- background div -->
+
 
 <script src="assets/js/jquery.slim.min.js"></script>
 <script src="assets/js/popper.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/parallax.js"></script>
 </body>
 </html>
